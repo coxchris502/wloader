@@ -7,7 +7,7 @@ also removing all bloatware from Windows 10. Edit script after your needs.
 
 ![Screenshot](pics/crack_windows.10.gif)
 
-# PREVIEW:
+# PREVIEW wloader.ps1:
 ![Screnshot](wloader.gif)
 
 # SLMGR Commands
