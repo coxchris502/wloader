@@ -6,9 +6,6 @@ also removing all bloatware from Windows 10. Edit script after your needs.
 
 ![Screenshot](.media/crack_windows.10.gif)
 
-# PREVIEW wloader.ps1 (old):
-![Screnshot](.media/wloader.gif)
-
 # Keys
 
     Home:                TX9XD-98N7V-6WMQ6-BX7FG-H8Q99
