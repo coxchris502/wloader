@@ -9,6 +9,40 @@ also removing all bloatware from Windows 10. Edit script after your needs.
 # PREVIEW wloader.ps1 (old):
 ![Screnshot](.media/wloader.gif)
 
+# Keys
+
+    Home:                TX9XD-98N7V-6WMQ6-BX7FG-H8Q99
+    Home N:              3KHY7-WNT83-DGQKR-F7HPR-844BM
+    Professional:        W269N-WFGWX-YVC9B-4J6C9-T83GX
+    Professional N:      MH37W-N47XK-V7XM9-C7227-GCQG9
+    Education:           NW6C2-QMPVW-D7KKK-3GKT6-VCFB2
+    Education N:         2WH4N-8QGBV-H22JP-CT43Q-MDWWJ
+    Enterprise:          NPPR9-FWDCX-D2C8J-H872K-2YT43
+    Enterprise N:        DPH2V-TTNVB-4X9Q3-TJR4H-KHJW4
+    Enterprise LSTB:     WNMTR-4C88C-JK8YV-HQ7T2-76DF9
+    Enterprise LSTB N:   2F77B-TNFGY-69QQF-B8YKP-D69TJ
+
+# KMS Servers:
+
+    kms.digiboy.ir
+    kms.cangshui.net
+    hq1.chinancce.com
+    54.223.212.31
+    kms.cnlic.com
+    kms.chinancce.com
+    kms.ddns.net
+    franklv.ddns.net
+    k.zpale.com
+    m.zpale.com
+    mvg.zpale.com
+    kms.shuax.com
+    kensol263.imwork.net:1688
+    xykz.f3322.org
+    kms789.com
+    dimanyakms.sytes.net:1688
+    kms.03k.org:1688
+
+
 # SLMGR Commands
 
     slmgr.exe -ato                                    Activate Windows license and product key against Microsoft’s server.
@@ -41,9 +75,10 @@ also removing all bloatware from Windows 10. Edit script after your needs.
     slmgr.exe -ltc                                    List valid token-based activation certificates that can activate installed software
     slmgr.exe -fta Certificate Thumbprint             Force token-based activation using the   identified certificate. 
 
-#### REQUIREMENTS
+#### RESOURCES
 
-A running Windows 10 Pro, works for any version you will find your keys from Microsoft here: https://docs.microsoft.com/sv-se/windows-server/get-started/kmsclientkeys
+https://www.reneelab.com/win10-activation-crack-free.html
+https://docs.microsoft.com/sv-se/windows-server/get-started/kmsclientkeys
 
 #### CONTACT 
 
