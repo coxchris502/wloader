@@ -74,8 +74,8 @@ also removing all bloatware from Windows 10. Edit script after your needs.
 
 #### RESOURCES
 
-https://www.reneelab.com/win10-activation-crack-free.html
-https://docs.microsoft.com/sv-se/windows-server/get-started/kmsclientkeys
+    https://www.reneelab.com/win10-activation-crack-free.html
+    https://docs.microsoft.com/sv-se/windows-server/get-started/kmsclientkeys
 
 #### CONTACT 
 
