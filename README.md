@@ -6,6 +6,32 @@ also removing all bloatware from Windows 10. Edit script after your needs.
 
 ![Screenshot](.media/crack_windows.10.gif)
 
+To display more detailed license information–including the activation ID, installation ID, and other details–run the following command:
+slmgr.vbs /dlv
+
+
+# View the License Expiration Date
+
+    slmgr.vbs /xpr
+
+Remove Activation Key:
+
+    slmgr.vbs /upk
+
+# Uninstall Product Key
+ 
+    slmgr.vbs /cpky
+
+# Set new key:
+
+    slmgr.vbs /ipk #####-#####-#####-#####-#####
+
+# Configure slmgr via remote
+
+    slmgr.vbs computername username password /option
+
+
+
 # Keys
 
     Home:                TX9XD-98N7V-6WMQ6-BX7FG-H8Q99
