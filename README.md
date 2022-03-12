@@ -9,6 +9,11 @@ also removing all bloatware from Windows 10. Edit script after your needs.
 To display more detailed license information–including the activation ID, installation ID, and other details–run the following command:
 slmgr.vbs /dlv
 
+# Activate Windows 10 Enterprise 10.0.19043 N/A Build 19043, full example: 
+
+    slmgr.vbs /ipk DPH2V-TTNVB-4X9Q3-TJR4H-KHJW4
+    slmgr /skms kms8.msguides.com
+    slmgr.vbs /ato
 
 # View the License Expiration Date
 
@@ -46,6 +51,8 @@ Remove Activation Key:
     Enterprise LSTB N:   2F77B-TNFGY-69QQF-B8YKP-D69TJ
 
 # KMS Servers:
+
+Add keys via: slmgr /skms <server>
 
     kms.digiboy.ir
     kms.cangshui.net
