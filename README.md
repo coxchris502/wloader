@@ -9,35 +9,35 @@ also removing all bloatware from Windows 10. Edit script after your needs.
 To display more detailed license information–including the activation ID, installation ID, and other details–run the following command:
 slmgr.vbs /dlv
 
-# Activate Windows 10 Enterprise 10.0.19043 N/A Build 19043, full example: 
+### Activate Windows 10 Enterprise 10.0.19043 N/A Build 19043, full example: 
 
     slmgr.vbs /ipk DPH2V-TTNVB-4X9Q3-TJR4H-KHJW4
     slmgr /skms kms8.msguides.com
     slmgr.vbs /ato
 
-# View the License Expiration Date
+### View the License Expiration Date
 
     slmgr.vbs /xpr
 
-Remove Activation Key:
+### Remove Activation Key:
 
     slmgr.vbs /upk
 
-# Uninstall Product Key
+### Uninstall Product Key
  
     slmgr.vbs /cpky
 
-# Set new key:
+### Set new key:
 
     slmgr.vbs /ipk #####-#####-#####-#####-#####
 
-# Configure slmgr via remote
+## Configure slmgr via remote
 
     slmgr.vbs computername username password /option
 
 
 
-# Keys
+### Keys
 
     Home:                TX9XD-98N7V-6WMQ6-BX7FG-H8Q99
     Home N:              3KHY7-WNT83-DGQKR-F7HPR-844BM
@@ -52,7 +52,9 @@ Remove Activation Key:
 
 # KMS Servers:
 
-Add keys via: slmgr /skms <server>
+Add keys via: 
+
+    slmgr /skms <server>
 
     kms.digiboy.ir
     kms.cangshui.net
@@ -73,7 +75,7 @@ Add keys via: slmgr /skms <server>
     kms.03k.org:1688
 
 
-# SLMGR Commands
+### SLMGR Commands
 
     slmgr.exe -ato                                    Activate Windows license and product key against Microsoft’s server.
     slmgr.exe -atp                                    Confirmation_ID Activate Windows with user-provided Confirmation   ID.
@@ -105,21 +107,21 @@ Add keys via: slmgr /skms <server>
     slmgr.exe -ltc                                    List valid token-based activation certificates that can activate installed software
     slmgr.exe -fta Certificate Thumbprint             Force token-based activation using the   identified certificate. 
 
-#### RESOURCES
+## RESOURCES
 
     https://www.reneelab.com/win10-activation-crack-free.html
     https://docs.microsoft.com/sv-se/windows-server/get-started/kmsclientkeys
 
-#### CONTACT 
+## CONTACT 
 
 If you have problems, questions, ideas or suggestions please contact
 us by posting to wuseman@nr1.nu
 
-#### WEB SITE
+## WEB SITE
 
 Visit our homepage for the latest info and updated tools
 
 https://github.com/wuseman
 
-#### END!
+## END!
 
