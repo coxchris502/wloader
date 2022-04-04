@@ -107,6 +107,28 @@ Add keys via:
     slmgr.exe -ltc                                    List valid token-based activation certificates that can activate installed software
     slmgr.exe -fta Certificate Thumbprint             Force token-based activation using the   identified certificate. 
 
+
+### Disable RealTime PRotection / Windows Defenders / Windows AutoScans
+
+    Get-MpPreference
+ 
+    Set-MpPreference -DisableArchiveScanning      $true                
+    Set-MpPreference -DisableAutoExclusions       $true                   
+    Set-MpPreference -DisableBehaviorMonitoring   $true              
+    Set-MpPreference -DisableBlockAtFirstSeen     $true                     
+    Set-MpPreference -DisableRealtimeMonitoring   $true
+    Set-MpPreference -DisableScanningNetworkFiles $true                  
+    Set-MpPreference -DisableScriptScanning       $true                
+    Set-MpPreference -DisableArchiveScanning      $true
+    Set-MpPreference -ScanParameters              0
+
+### Install WSL2 ( Gentoo )
+
+    Enable-WindowsOptionalFeature -NoRestart -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+    Enable-WindowsOptionalFeature -NoRestart -Online -FeatureName VirtualMachinePlatform
+    wsl --set-default-version 2
+    wsl --import gentoo C:\Users\salfter\gentoo\ C:\Users\salfter\Downloads\stage3-amd64-nomultilib-20200624T214505Z.tar --version 2
+ 
 ## RESOURCES
 
     https://www.reneelab.com/win10-activation-crack-free.html
